@@ -13,6 +13,7 @@ import FavoritesScreen from './screens/FavoritesScreen';
 const Stack = createNativeStackNavigator()
 const Drawer = createDrawerNavigator()
 
+//Sur cette branche on gére le state avec redux
 function DrawerNavigator(){
   return (
     <Drawer.Navigator
@@ -65,7 +66,7 @@ export default function App() {
             name="Drawer" 
             component={DrawerNavigator} 
             options={{
-              headerShown: false
+              headerShown: false //permet de cacher le header pour ne voir que celui du drawer
             }}
           />
           <Stack.Screen
