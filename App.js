@@ -13,7 +13,7 @@ import FavoritesScreen from './screens/FavoritesScreen';
 const Stack = createNativeStackNavigator()
 const Drawer = createDrawerNavigator()
 
-//Sur cette branche on gére le state avec redux
+//Sur cette branche on gére le state avec react context api
 function DrawerNavigator(){
   return (
     <Drawer.Navigator
